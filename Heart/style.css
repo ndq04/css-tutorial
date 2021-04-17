@@ -1,0 +1,22 @@
+body {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   height: 100vh;
+}
+
+section {
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(20, 20px);
+   grid-template-rows: repeat(20, 20px);
+}
+div {
+   border: 1px solid #000;
+}
+.black {
+   background: #000;
+}
+.red {
+   background: red;
+}
